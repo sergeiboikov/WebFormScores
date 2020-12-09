@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            WebFormScores
+        </title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <table>
+            <tr>
+                <td>
+                    <form onsubmit="event.preventDefault(); onFormSubmit()" autocomplete="off">
+                        <div>
+                            <label>Course Name</label>
+                            <input type="text" name="coursename" id="coursename">
+                        </div>
+                        <div>
+                            <label>Reviewer Name</label>
+                            <input type="text" name="reviewername" id="reviewername">
+                        </div>
+                        <div>
+                            <label>Student Name</label>
+                            <input type="text" name="studentname" id="studentname">
+                        </div>
+                        <div>
+                            <label>Task Name</label>
+                            <input type="text" name="taskname" id="taskname">
+                        </div>
+                        <div>
+                            <label>SubTask Name</label>
+                            <input type="text" name="subtaskname" id="subtaskname">
+                        </div>
+                        <div>
+                            <label>Mark</label>
+                            <input type="text" name="mark" id="mark">
+                        </div>
+                        <div>
+                            <label>Name Convention</label>
+                            <input type="text" name="nameconv" id="nameconv">
+                        </div>
+                        <div>
+                            <label>Sarg</label>
+                            <input type="text" name="sarg" id="sarg">
+                        </div>
+                        <div>
+                            <label>Aliases</label>
+                            <input type="text" name="aliases" id="aliases">
+                        </div>
+                        <div>
+                            <label>Deterministic Sorting</label>
+                            <input type="text" name="determsorting" id="determsorting">
+                        </div>
+                        <div>
+                            <label>OnTime</label>
+                            <input type="text" name="ontime" id="ontime">
+                        </div>
+                        <div>
+                            <label>Extra</label>
+                            <input type="text" name="extra" id="extra">
+                        </div>
+                        <div>
+                            <label>Comment</label>
+                            <input type="text" name="comment" id="comment">
+                        </div>
+                        <div class="form-action-buttons">
+                            <input type="submit" name="Submit">
+                        </div>
+                    </form>
+                </td>
+                <td>
+                    <table class="list" id="scoresList">
+                        <thead>
+                            <tr>
+                                <th>Course Name</th>
+                                <th>Reviewer Name</th>
+                                <th>Student Name</th>
+                                <th>Task Name</th>
+                                <th>SubTask Name</th>
+                                <th>Mark</th>
+                                <th>Name Convention</th>
+                                <th>Sarg</th>
+                                <th>Aliases</th>
+                                <th>Deterministic Sorting</th>
+                                <th>OnTime</th>
+                                <th>Extra</th>
+                                <th>Comment</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+        </table>
+        <script src="script.js"></script>
+    </body>
+</html>
