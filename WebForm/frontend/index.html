@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>
             WebFormScores
         </title>
@@ -33,37 +34,38 @@
                         </div>
                         <div>
                             <label>Mark</label>
-                            <input type="text" name="mark" id="mark">
+                            <input type="number" name="mark" id="mark">
                         </div>
                         <div>
                             <label>Name Convention</label>
-                            <input type="text" name="nameconv" id="nameconv">
+                            <input type="number" name="nameconv" id="nameconv">
                         </div>
                         <div>
                             <label>Sarg</label>
-                            <input type="text" name="sarg" id="sarg">
+                            <input type="number" name="sarg" id="sarg">
                         </div>
                         <div>
                             <label>Aliases</label>
-                            <input type="text" name="aliases" id="aliases">
+                            <input type="number" name="aliases" id="aliases">
                         </div>
                         <div>
                             <label>Deterministic Sorting</label>
-                            <input type="text" name="determsorting" id="determsorting">
+                            <input type="number" name="determsorting" id="determsorting">
                         </div>
                         <div>
                             <label>OnTime</label>
-                            <input type="text" name="ontime" id="ontime">
+                            <input type="number" name="ontime" id="ontime">
                         </div>
                         <div>
                             <label>Extra</label>
-                            <input type="text" name="extra" id="extra">
+                            <input type="number" name="extra" id="extra">
                         </div>
                         <div>
                             <label>Comment</label>
                             <input type="text" name="comment" id="comment">
                         </div>
                         <div class="form-action-buttons">
+                            <input type="button" onclick="onFormClear()" value="Clear">
                             <input type="submit" name="Submit">
                         </div>
                     </form>
@@ -85,6 +87,7 @@
                                 <th>OnTime</th>
                                 <th>Extra</th>
                                 <th>Comment</th>
+                                <th></th>
                             </tr>
                         </thead>
                         <tbody>
