@@ -1,0 +1,13 @@
+{
+    "name": "WebScores app",
+    "version": "1.0.0",
+    "description": "Web app for insert Scores",
+    "author": "Sergei Boikov <boikoff@inbox.ru>",
+    "main": "server.js",
+    "scripts": {
+      "start": "node server.js"
+    },
+    "dependencies": {
+      "express": "^4.17.1"
+    }
+  }

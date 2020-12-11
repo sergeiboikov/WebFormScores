@@ -1,0 +1,20 @@
+{   "CourseName": "MSBI.DEV.S19", 
+    "ReviewerName": "Sergei Boikov", 
+    "StudentName": "Anna Sedina", 
+    "TaskName": "MSBI.DEV.Task.05", 
+    "Subtasks": [ 
+                    {
+                        "SubTaskName": "Subtask.05.08", 
+                        "Mark": 5, 
+                        "NameConv": 0, 
+                        "Redability": 1, 
+                        "Sarg": 0, 
+                        "SchemaName": 1, 
+                        "Aliases": 1, 
+                        "DetermSorting": 0, 
+                        "OnTime": 1, 
+                        "Extra": 1, 
+                        "Comment": ""
+                    }
+                ]
+}
